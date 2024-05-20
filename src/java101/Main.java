@@ -3,7 +3,7 @@ package java101;
 import java.util.stream.Stream;
 import java.util.ArrayList;
 
-import static org.junit.Assert.assertEquals;
+//import static org.junit.Assert.assertEquals;
 
 public class Main
 {
@@ -39,5 +39,6 @@ public class Main
         System.out.println(new SpinWords().spinWords("Hey fellow warriors"));
         System.out.println(new SpinWords().spinWords("This is probe test"));
         System.out.println(new SpinWords().spinWords("This is another test"));
+        System.out.println(ASum.findNb(1071225));
     }
 }
